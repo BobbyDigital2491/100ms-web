@@ -1,6 +1,5 @@
 import React from "react";
 import { Box, Flex, Text, useTheme } from "@100mslive/react-ui";
-import { CREATE_ROOM_DOC_URL } from "../common/constants";
 
 function ErrorPage({ error }) {
   const themeType = useTheme().themeType;
@@ -29,23 +28,21 @@ function ErrorPage({ error }) {
             direction="column"
             css={{ position: "absolute", size: "100%", top: "33.33%", left: 0 }}
           >
-            <Text variant="h3">Almost There!</Text>
+            <Text variant="h3">Web 3 Factory</Text>
             <Text
               variant="body1"
               css={{ margin: "1.75rem", textAlign: "center" }}
             >
-              {
-                "Hi there! thanks for trying us out, there is not much here yet. Let's get you all setup to join a meeting. "
-              }
+              {" Learn about Blockchain, Crypto, and Web 3. "}
               <a
-                href={CREATE_ROOM_DOC_URL}
+                href="http://localhost:3000/preview/638cf929ea4ced3e8758b790/guest"
                 target="_blank"
                 rel="noopener noreferrer"
                 style={{ textDecoration: "underline" }}
               >
                 Click here
               </a>{" "}
-              for next steps
+              to join as a guest
             </Text>
           </Flex>
         ) : (
