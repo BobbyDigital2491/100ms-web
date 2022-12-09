@@ -35,7 +35,7 @@ function ErrorPage({ error }) {
             >
               {" Learn about Blockchain, Crypto, and Web 3. "}
               <a
-                href="http://localhost:3000/preview/638cf929ea4ced3e8758b790/guest"
+                href="https://web-3-factory.vercel.app/meeting/638cf929ea4ced3e8758b790/guest"
                 target="_blank"
                 rel="noopener noreferrer"
                 style={{ textDecoration: "underline" }}
