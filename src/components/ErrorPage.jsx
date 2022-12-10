@@ -53,7 +53,7 @@ function ErrorPage({ error }) {
           >
             <Text variant="h2">404</Text>
             <Text variant="h4" css={{ mt: "1.75rem" }}>
-              Welcome
+              Learn about Blockchain, Crypto, and Web 3.
             </Text>
           </Flex>
         )}
