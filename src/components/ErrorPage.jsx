@@ -53,7 +53,7 @@ function ErrorPage({ error }) {
           >
             <Text variant="h2">404</Text>
             <Text variant="h4" css={{ mt: "1.75rem" }}>
-              {error}
+              Welcome
             </Text>
           </Flex>
         )}
