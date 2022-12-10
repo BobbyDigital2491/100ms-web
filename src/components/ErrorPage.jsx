@@ -51,8 +51,8 @@ function ErrorPage({ error }) {
             direction="column"
             css={{ position: "absolute", size: "100%", top: "33.33%", left: 0 }}
           >
-            <Text variant="h2">404</Text>
-            <Text variant="h4" css={{ mt: "1.75rem" }}>
+            <Text variant="h2">Web 3 Factory</Text>
+            <Text variant="h4" align="center" css={{ mt: "1.75rem" }}>
               Learn about Blockchain, Crypto, and Web 3.
             </Text>
           </Flex>
